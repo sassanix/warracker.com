@@ -95,18 +95,18 @@
   .pledge p { margin:0; font-size:17px; line-height:1.6; }
   .pledge strong { color:var(--text); }
 
-  .duo { display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start; }
+  .duo { display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:stretch; }
   .waitlist { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:28px; text-align:center; }
   .waitlist p { color:var(--muted); line-height:1.55; margin:0 auto 20px; }
   .form-card { background:#fff; border-radius:10px; padding:24px; text-align:left; margin:0 auto; }
-  .enterprise { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:28px; }
+  .enterprise { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:28px; display:flex; flex-direction:column; }
   .enterprise h2 { font-size:24px; text-align:center; }
   .enterprise .section-sub { text-align:center; font-size:15px; }
   .enterprise ul { list-style:none; margin:0 0 24px; padding:0; }
   .enterprise li { padding:7px 0; font-size:15px; line-height:1.5; }
   .enterprise li i { color:var(--accent-light); margin-right:10px; width:18px; text-align:center; }
   .enterprise .planned { color:var(--muted); }
-  .enterprise .cta { margin-bottom:0; }
+  .enterprise .cta { margin-top:auto; margin-bottom:0; padding-top:24px; }
 
   .faq details { border-bottom:1px solid var(--border); padding:16px 4px; }
   .faq details:first-of-type { border-top:1px solid var(--border); }
@@ -235,7 +235,9 @@ docker compose up -d</code></pre>
           <li><i class="fas fa-check" aria-hidden="true"></i>Priority support, direct from the maintainer</li>
           <li><i class="fas fa-check" aria-hidden="true"></i>Onboarding and upgrade help</li>
           <li><i class="fas fa-check" aria-hidden="true"></i>Security advisories, ahead of public disclosure</li>
-          <li class="planned"><i class="fas fa-clock" aria-hidden="true"></i>Planned: SAML SSO, SCIM provisioning, SIEM export</li>
+          <li class="planned"><i class="fas fa-clock" aria-hidden="true"></i>SAML SSO, planned</li>
+          <li class="planned"><i class="fas fa-clock" aria-hidden="true"></i>SCIM provisioning, planned</li>
+          <li class="planned"><i class="fas fa-clock" aria-hidden="true"></i>SIEM export, planned</li>
         </ul>
         <div class="cta">
           <a class="btn btn-primary" href="https://tally.so/r/Eqlk82" target="_blank" rel="noopener">Register interest</a>
