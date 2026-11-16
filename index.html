@@ -50,6 +50,7 @@
   pre code { color:var(--text); }
   .waitlist { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:32px; text-align:center; margin-bottom:56px; }
   .waitlist p { color:var(--muted); line-height:1.55; max-width:520px; margin:0 auto 20px; }
+  .form-card { background:#fff; border-radius:10px; padding:24px; text-align:left; max-width:560px; margin:0 auto; }
   footer { border-top:1px solid #21262d; padding:24px 0 40px; font-size:14px; color:var(--muted); }
   footer .wrap { display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
   @media (max-width:640px) {
@@ -121,8 +122,8 @@ docker compose up -d</code></pre>
 
   <section class="waitlist" id="waitlist">
     <h2>Warracker Cloud is coming</h2>
-    <p>A hosted version for people who want Warracker without running a server. Join the waitlist and we will email you once, when it opens. Your email is used only for Cloud launch updates. No payment is collected.</p>
-    <iframe data-tally-src="https://tally.so/embed/Z9Ojzv?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="275" frameborder="0" marginheight="0" marginwidth="0" title="Warracker Cloud waitlist"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+    <p>A hosted version for people who want Warracker without running a server.</p>
+    <div class="form-card"><iframe data-tally-src="https://tally.so/embed/Z9Ojzv?alignLeft=1&hideTitle=1&dynamicHeight=1" loading="lazy" width="100%" height="275" frameborder="0" marginheight="0" marginwidth="0" title="Warracker Cloud waitlist"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script></div>
     <p style="margin-top:20px;"><a href="https://github.com/sassanix/Warracker">Star Warracker on GitHub</a> to follow along.</p>
   </section>
 </main>
