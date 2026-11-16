@@ -30,7 +30,9 @@
   footer a { white-space:nowrap; }
   footer i { margin-right:5px; }
   @media (max-width:640px) {
-    .navlinks { gap:14px; }
+    .navlinks { gap:16px; }
+    .navlinks .nav-label { display:none; }
+    .navlinks i { font-size:18px; }
   }
   .hero { text-align:center; padding:56px 0 8px; }
   .eyebrow { display:inline-block; font-size:12px; font-weight:600; letter-spacing:.4px; text-transform:uppercase; color:var(--accent-light); border:1px solid var(--accent); border-radius:20px; padding:4px 12px; margin-bottom:20px; }
@@ -84,8 +86,8 @@
     <div class="navlinks">
       <a class="hide-sm" href="#features">Features</a>
       <a class="hide-sm" href="https://github.com/sassanix/Warracker/wiki">Docs</a>
-      <a href="https://github.com/sassanix/Warracker"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
-      <a href="https://discord.gg/PGxVS3U2Nw"><i class="fa-brands fa-discord" aria-hidden="true"></i>Discord</a>
+      <a href="https://github.com/sassanix/Warracker" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i><span class="nav-label">GitHub</span></a>
+      <a href="https://discord.gg/PGxVS3U2Nw" aria-label="Discord"><i class="fa-brands fa-discord" aria-hidden="true"></i><span class="nav-label">Discord</span></a>
       <a class="sponsor" href="https://www.buymeacoffee.com/sassanix">Sponsor</a>
     </div>
   </div>
