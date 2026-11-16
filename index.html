@@ -9,6 +9,7 @@
 <meta property="og:description" content="Open-source warranty tracker for individuals and teams. Self-host in minutes, or join the Cloud waitlist.">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 <style>
   :root { --bg:#0d1117; --panel:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#1f6feb; --accent-light:#58a6ff; }
   * { box-sizing:border-box; }
@@ -44,6 +45,7 @@
   .section-sub { color:var(--muted); margin:0 0 28px; line-height:1.55; }
   .features { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-bottom:56px; }
   .feature { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:20px; }
+  .feature .icon { display:block; font-size:20px; color:var(--accent-light); margin-bottom:10px; }
   .feature h3 { margin:0 0 6px; font-size:16px; }
   .feature p { margin:0; font-size:14px; line-height:1.55; color:var(--muted); }
   pre { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:18px 20px; overflow-x:auto; font-size:14px; line-height:1.6; margin:0 0 56px; }
@@ -100,12 +102,12 @@
     <h2>Everything your warranties need</h2>
     <p class="section-sub">The full feature set, free and open source, in the version you host yourself.</p>
     <div class="features">
-      <div class="feature"><h3>Centralized tracking</h3><p>Every product warranty in one place, with purchase dates, durations, serial numbers, and photos.</p></div>
-      <div class="feature"><h3>Expiry alerts</h3><p>Email or 100+ push services via Apprise. Each threshold notifies once, never daily repeats.</p></div>
-      <div class="feature"><h3>Documents</h3><p>Receipts, invoices, and manuals stored securely, with Paperless-ngx integration.</p></div>
-      <div class="feature"><h3>Claims</h3><p>Manage warranty claims end to end, with statuses, dates, resolutions, and attached documents.</p></div>
-      <div class="feature"><h3>Multi-user</h3><p>Admin controls, OIDC single sign-on, and a global view for families and teams.</p></div>
-      <div class="feature"><h3>Status dashboard</h3><p>Charts, totals in your currency, and CSV export of any filtered view.</p></div>
+      <div class="feature"><i class="fas fa-box icon" aria-hidden="true"></i><h3>Centralized tracking</h3><p>Every product warranty in one place, with purchase dates, durations, serial numbers, and photos.</p></div>
+      <div class="feature"><i class="fas fa-bell icon" aria-hidden="true"></i><h3>Expiry alerts</h3><p>Email or 100+ push services via Apprise. Each threshold notifies once, never daily repeats.</p></div>
+      <div class="feature"><i class="fas fa-file-invoice icon" aria-hidden="true"></i><h3>Documents</h3><p>Receipts, invoices, and manuals stored securely, with Paperless-ngx integration.</p></div>
+      <div class="feature"><i class="fas fa-clipboard-list icon" aria-hidden="true"></i><h3>Claims</h3><p>Manage warranty claims end to end, with statuses, dates, resolutions, and attached documents.</p></div>
+      <div class="feature"><i class="fas fa-users icon" aria-hidden="true"></i><h3>Multi-user</h3><p>Admin controls, OIDC single sign-on, and a global view for families and teams.</p></div>
+      <div class="feature"><i class="fas fa-chart-pie icon" aria-hidden="true"></i><h3>Status dashboard</h3><p>Charts, totals in your currency, and CSV export of any filtered view.</p></div>
     </div>
   </section>
 
