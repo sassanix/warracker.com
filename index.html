@@ -26,7 +26,12 @@
   .navlinks a { color:var(--muted); }
   .navlinks a:hover { color:var(--text); text-decoration:none; }
   .navlinks .sponsor { border:1px solid var(--border); border-radius:20px; padding:5px 14px; color:var(--text); }
-  .navlinks i, footer i { margin-right:5px; }
+  .navlinks a { display:inline-flex; align-items:center; gap:5px; white-space:nowrap; }
+  footer a { white-space:nowrap; }
+  footer i { margin-right:5px; }
+  @media (max-width:640px) {
+    .navlinks { gap:14px; }
+  }
   .hero { text-align:center; padding:56px 0 8px; }
   .eyebrow { display:inline-block; font-size:12px; font-weight:600; letter-spacing:.4px; text-transform:uppercase; color:var(--accent-light); border:1px solid var(--accent); border-radius:20px; padding:4px 12px; margin-bottom:20px; }
   h1 { margin:0 0 14px; font-size:48px; line-height:1.1; letter-spacing:-1px; }
